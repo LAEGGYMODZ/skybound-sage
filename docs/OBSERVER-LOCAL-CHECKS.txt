@@ -1,0 +1,15 @@
+PASS Attach and detach use exactly the provided callback instance
+PASS Repeated attach does not register duplicate callbacks
+PASS Removing ours leaves unrelated synthetic callbacks present
+PASS Detached cleanup is a no-op
+PASS Dispose is idempotent and closes future attachment
+PASS A partially successful add that throws attempts exact compensating removal
+PASS Failed add and cleanup retain unknown state and both failures
+PASS Failed removal is retryable without losing the original callback
+PASS Failed Dispose stays unknown until successful cleanup closes it
+PASS Cross-thread binding and cleanup cannot mutate the host
+PASS Reentrant attachment and removal are refused during registration
+PASS The helper never invokes the owned event handler
+PASS Null arguments and multicast callback bundles are refused
+RESULT 13 passed, 0 failed
+Compiled and tested the local helper. It has no game entry point and was not installed in Wukong.
