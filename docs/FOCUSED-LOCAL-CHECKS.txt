@@ -1,0 +1,24 @@
+PASS Descriptors do not run constructors, getters, methods, or event accessors
+PASS Field and property values and optional defaults stay excluded
+PASS Parameter names and ref/out modes are retained as metadata
+PASS Unrelated whitelist and download names do not pretend to be hit/load types
+PASS UnitDie is recognized as a lifecycle candidate
+PASS Root identities survive a tiny row budget across all combat families
+PASS An event-family flood cannot starve player dodge hit lifecycle and controller roots
+PASS Reference-linked opaque wrapper and callback shapes are inspected without getters
+PASS Inherited Add and Remove descriptors carry declaring type and assembly
+PASS Disabling related expansion marks missing relationship coverage
+PASS A previously unselected root can still be reached through a reference
+PASS Zero returned type slots and unexpanded assembly coverage remain distinct
+PASS Every type and member row names its actual source assembly
+PASS Non-game assemblies are named without expanding their members
+PASS Game assemblies get inspection priority over general assembly names
+PASS Scanned-type clipping records partial per-assembly inspection
+PASS Partial type-load errors preserve only error type and partial coverage
+PASS Character caps and field-name escaping keep a valid bounded TSV
+PASS Member and per-type caps report incompleteness explicitly
+PASS Zero time budget yields an explicitly limited empty result
+PASS Duplicate types are selected once and limits cannot be enlarged by callers
+PASS Snapshots are immutable and a scanner cannot perform a second pass
+RESULT 22 passed, 0 failed
+Local compilation and fixture checks complete. Nothing installed or launched in Wukong.
