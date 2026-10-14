@@ -1,0 +1,23 @@
+# Local builds and dependency binaries
+**/build/
+**/bin/
+**/obj/
+*.dll
+*.exe
+*.pdb
+*.bin
+*.zip
+
+# Private runtime material, credentials and saves
+work/
+**/runtime/
+.env
+.env.*
+*.sav
+*.log
+*.user
+.vs/
+.idea/
+__pycache__/
+.DS_Store
+Thumbs.db
