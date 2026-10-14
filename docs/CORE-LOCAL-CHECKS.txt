@@ -1,0 +1,24 @@
+PASS Variety earns more style than repeated light attacks
+PASS Duplicate callbacks and clone/echo hits cannot inflate score
+PASS Ordinary dodge gives no credit; confirmed perfect dodge does
+PASS Fury requires charge and expires exactly at six seconds
+PASS New charge cannot bypass Fury cooldown
+PASS Death/load/rest/shutdown resets clear temporary state
+PASS Disabling rules clears Fury and prevents scoring
+PASS Fury switch leaves style scoring available
+PASS Idle decay begins after the grace period
+PASS Bad IDs, enums and backward clocks grant no score
+PASS Perfect dodge callbacks award once
+PASS Hit and dodge IDs are independent
+PASS Long session keeps scores, charge and event cache bounded
+PASS Full cache refuses new credit without forgetting duplicates
+PASS Caller configuration cannot change an existing rules instance
+PASS IDs containing separators do not collide
+PASS Timer overflow refuses activation without consuming charge
+PASS Old callbacks cannot cross a lifecycle reset
+PASS Unconfirmed button-like events cannot earn style
+PASS Disable/re-enable rejects callbacks from the earlier enabled session
+PASS Shutdown is idempotent and permanently closes event intake
+PASS A rejected backward reset does not invalidate the current session
+RESULT 22 passed, 0 failed
+Compiled and tested the standalone core. This did not install a Wukong mod.
