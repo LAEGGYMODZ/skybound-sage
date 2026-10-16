@@ -6,6 +6,8 @@ Original combat-mod development for the single-player PC campaign of **Black Myt
 
 ## Current components
 
+Latest addition: [Request Guard v2.6](request-guard/README.md), a small offline experiment for attributing temporary requests and checking removal proposals. Its publication copy passed 42 synthetic checks. It has no game adapter or enabled native execution; in-game ownership, cleanup and Fury effects remain unverified. Earlier components below retain their original validation scope.
+
 | Component | Present behavior | Evidence and limits |
 |---|---|---|
 | `core/` | Original style/Fury rules, event deduplication, session/lifecycle boundary | 22 isolated behavioral checks passed. Earlier C#/JavaScript parity covered 4,036 synthetic events; it does not prove game compatibility. |
